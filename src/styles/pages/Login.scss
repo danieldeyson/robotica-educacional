@@ -1,0 +1,47 @@
+.login-component {
+    background: #f2f5f7;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    .textfield {
+        width: 100%;
+        background-color: white;
+        margin-top: 10px;
+
+    }
+    .submit {
+        margin-top: 10px;
+        width: 100%;
+        flex-direction: row;
+    
+    }
+    .login-font {
+        color: #6c757d;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.125;
+        text-align: center;
+    }
+    .login-font-secundary {
+        color: #6c757d;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1.125;
+        text-align: center;
+        margin-bottom: 14px;
+        
+    }
+
+
+    .custom-control-label {
+        font-weight: 400;
+        width: 20;
+        height: 20;
+        flex-wrap: wrap;
+
+
+
+
+
+    }
+}

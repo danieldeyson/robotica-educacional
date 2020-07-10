@@ -6,7 +6,6 @@
   "engines": {
     "node": "12.x"
   },
-  "main": "index.js",
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
@@ -47,13 +46,13 @@
     "watchman": "^1.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "build:staging": "env-cmd -f .env.staging  npm run build",
     "build:dev": "env-cmd -f .env.dev  npm run build",
     "build:prod": "env-cmd -f .env.prod  npm run build",
     "build:test": "env-cmd -f .env.test  npm run build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

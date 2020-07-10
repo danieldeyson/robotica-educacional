@@ -18,7 +18,7 @@
     "env-cmd": "^9.0.1",
     "history": "^4.9.0",
     "lodash": "^4.17.15",
-    "mini-css-extract-plugin": "^1.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-libs-browser": "^2.2.1",
     "node-sass": "^4.13.1",
     "qrcode.react": "^0.9.3",

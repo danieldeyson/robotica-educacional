@@ -27,7 +27,7 @@
     "node-sass": "^4.13.1",
     "qrcode.react": "^0.9.3",
     "react": "^16.8.6",
-    "react-build": "^1.0.8",
+        
     "react-content-loader": "^5.0.2",
     "react-dom": "^16.12.0",
     "react-native-gesture-handler": "^1.6.1",

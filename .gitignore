@@ -2,8 +2,9 @@
 /node_modules
 npm-debug.log
 yarn.lock
+yarn-error.log
 package-lock.json
-bkp_package.json
+bkp*
 audit.txt
 
 # Local development

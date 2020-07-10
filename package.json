@@ -48,13 +48,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js",
-    "build": "react-scripts build",
-    "build:staging": "env-cmd -f .env.staging  npm run build",
-    "build:dev": "env-cmd -f .env.dev  npm run build",
-    "build:prod": "env-cmd -f .env.prod  npm run build",
-    "build:test": "env-cmd -f .env.test  npm run build",
-    "eject": "react-scripts eject"
+    "test": "node test.js"
   },
   "eslintConfig": {
     "extends": "react-app"

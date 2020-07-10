@@ -22,7 +22,6 @@
     "react": "^16.8.6",
     "react-content-loader": "^5.0.2",
     "react-build": "^1.0.8",
-    "react-content-loader": "^5.0.2",
     "react-dom": "^16.12.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-notifications": "^1.4.3",
@@ -60,5 +59,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import-helpers": "^1.0.2"
+  }
 }

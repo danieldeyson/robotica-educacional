@@ -1,6 +1,19 @@
-﻿/node_modules/
+# Node build artifacts
+/node_modules
+npm-debug.log
 yarn.lock
 package-lock.json
 bkp_package.json
 audit.txt
-histórico.txt
+
+# Local development
+.env
+.dev
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Files Management
+hist�rico.txt

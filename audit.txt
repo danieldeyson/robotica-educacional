@@ -1,0 +1,477 @@
+﻿                       === npm audit security report ===
+
+
+                                 Manual Review
+             Some vulnerabilities require your attention to resolve
+
+          Visit https://go.npm.me/audit-guide for additional guidance
+
+
+  High            Cross-Site Scripting
+
+  Package         handlebars
+
+  Patched in      >=4.0.0
+
+  Dependency of   react-build
+
+  Path            react-build > command-line-args > handlebars
+
+  More info       https://npmjs.com/advisories/61
+
+
+  Critical        Prototype Pollution
+
+  Package         handlebars
+
+  Patched in      >=4.0.14 <4.1.0 || >=4.1.2
+
+  Dependency of   react-build
+
+  Path            react-build > command-line-args > handlebars
+
+  More info       https://npmjs.com/advisories/755
+
+
+  High            Regular Expression Denial of Service
+
+  Package         minimatch
+
+  Patched in      >=3.0.2
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > minimatch
+
+  More info       https://npmjs.com/advisories/118
+
+
+  High            Regular Expression Denial of Service
+
+  Package         minimatch
+
+  Patched in      >=3.0.2
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core > minimatch
+
+  More info       https://npmjs.com/advisories/118
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   react-build
+
+  Path            react-build > less > request > hawk > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   react-build
+
+  Path            react-build > less > request > hawk > cryptiles > boom >
+                  hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   react-build
+
+  Path            react-build > less > request > hawk > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   react-build
+
+  Path            react-build > less > request > hawk > sntp > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.5
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > babel-plugin-proto-to-assign >
+                  lodash
+
+  More info       https://npmjs.com/advisories/577
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.5
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core >
+                  babel-plugin-proto-to-assign > lodash
+
+  More info       https://npmjs.com/advisories/577
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.5
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/577
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.5
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/577
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.11
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > babel-plugin-proto-to-assign >
+                  lodash
+
+  More info       https://npmjs.com/advisories/782
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.11
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core >
+                  babel-plugin-proto-to-assign > lodash
+
+  More info       https://npmjs.com/advisories/782
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.11
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/782
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.11
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/782
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.12
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > babel-plugin-proto-to-assign >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1065
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.12
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core >
+                  babel-plugin-proto-to-assign > lodash
+
+  More info       https://npmjs.com/advisories/1065
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.12
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/1065
+
+
+  High            Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.12
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/1065
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.17
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > babel-plugin-proto-to-assign >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.17
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core >
+                  babel-plugin-proto-to-assign > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.17
+
+  Dependency of   react-build
+
+  Path            react-build > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.17
+
+  Dependency of   react-build
+
+  Path            react-build > babel-loader > babel-core > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Critical        Command Injection
+
+  Package         open
+
+  Patched in      >0.0.5
+
+  Dependency of   react-build
+
+  Path            react-build > webpack-dev-server > open
+
+  More info       https://npmjs.com/advisories/663
+
+
+  High            Missing Origin Validation
+
+  Package         webpack-dev-server
+
+  Patched in      >=2.11.4 <3.0.0 || >=3.1.11
+
+  Dependency of   react-build
+
+  Path            react-build > webpack-dev-server
+
+  More info       https://npmjs.com/advisories/725
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         clean-css
+
+  Patched in      >=4.1.11
+
+  Dependency of   react-build
+
+  Path            react-build > css-loader > clean-css
+
+  More info       https://npmjs.com/advisories/785
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         braces
+
+  Patched in      >=2.3.1
+
+  Dependency of   react-build
+
+  Path            react-build > webpack > watchpack > chokidar > anymatch >
+                  micromatch > braces
+
+  More info       https://npmjs.com/advisories/786
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         braces
+
+  Patched in      >=2.3.1
+
+  Dependency of   react-build
+
+  Path            react-build > webpack-dev-server > http-proxy-middleware >
+                  micromatch > braces
+
+  More info       https://npmjs.com/advisories/786
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Patched in      >=0.2.1 <1.0.0 || >=1.2.3
+
+  Dependency of   react-build
+
+  Path            react-build > command-line-args > handlebars > optimist >
+                  minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Patched in      >=0.2.1 <1.0.0 || >=1.2.3
+
+  Dependency of   react-build
+
+  Path            react-build > webpack > optimist > minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Patched in      >=0.2.1 <1.0.0 || >=1.2.3
+
+  Dependency of   react-build
+
+  Path            react-build > webpack-dev-server > optimist > minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+  High            Cross-Site Scripting
+
+  Package         react
+
+  Patched in      >=0.14.0
+
+  Dependency of   react-build
+
+  Path            react-build > react
+
+  More info       https://npmjs.com/advisories/1347
+
+
+  High            Insufficient Entropy
+
+  Package         cryptiles
+
+  Patched in      >=4.1.2
+
+  Dependency of   react-build
+
+  Path            react-build > less > request > hawk > cryptiles
+
+  More info       https://npmjs.com/advisories/1464
+
+
+  Low             Prototype Pollution
+
+  Package         yargs-parser
+
+  Patched in      >=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2
+
+  Dependency of   react-scripts
+
+  Path            react-scripts > webpack-dev-server > yargs > yargs-parser
+
+  More info       https://npmjs.com/advisories/1500
+
+found 35 vulnerabilities (15 low, 4 moderate, 14 high, 2 critical) in 2464 scanned packages
+  35 vulnerabilities require manual review. See the full report for details.

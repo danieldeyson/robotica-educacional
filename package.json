@@ -39,17 +39,17 @@
     "semantic-ui-react": "^0.86.0",
     "unform-material-ui": "^1.0.0",
     "use-query-params": "^0.6.0",
-    "styled-components": "^4.2.0",
+    "styled-components": "^x",
     "validator": "^10.11.0",
     "watchman": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:staging": "env-cmd -f ./.env.staging  npm run build",
-    "build:dev": "env-cmd -f ./.env.dev  npm run build",
-    "build:prod": "env-cmd -f ./.env.prod  npm run build",
-    "build:test": "env-cmd -f ./.env.test  npm run build",
+    "build:staging": "env-cmd -f .env.staging  npm run build",
+    "build:dev": "env-cmd -f .env.dev  npm run build",
+    "build:prod": "env-cmd -f .env.prod  npm run build",
+    "build:test": "env-cmd -f .env.test  npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

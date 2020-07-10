@@ -17,7 +17,8 @@
     "connected-react-router": "^6.7.0",
     "env-cmd": "^9.0.1",
     "history": "^4.9.0",
-    "lodash": "^4.17.15",    
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^1.0.0",
     "node-libs-browser": "^2.2.1",
     "node-sass": "^4.13.1",
     "qrcode.react": "^0.9.3",
@@ -61,5 +62,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import-helpers": "^1.0.2"
+  }
 }

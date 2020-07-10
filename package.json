@@ -39,7 +39,7 @@
     "semantic-ui-react": "^0.86.0",
     "unform-material-ui": "^1.0.0",
     "use-query-params": "^0.6.0",
-    "styled-components": "^z",
+    "styled-components": "^4.2.0",
     "validator": "^10.11.0",
     "watchman": "^1.0.0"
   },

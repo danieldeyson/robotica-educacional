@@ -5,7 +5,6 @@ yarn.lock
 yarn-error.log
 package-lock.json
 bkp*
-audit.txt
 
 # Local development
 .env
@@ -17,4 +16,5 @@ Dockerfile
 docker-compose.yml
 
 # Files Management
-histórico.txt
+hist*
+audit.txt

@@ -6,7 +6,6 @@
   "engines": {
     "node": "12.x"
   },
-  "main": "index.js",
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
@@ -27,7 +26,6 @@
     "node-sass": "^4.13.1",
     "qrcode.react": "^0.9.3",
     "react": "^16.8.6",
-        
     "react-content-loader": "^5.0.2",
     "react-dom": "^16.12.0",
     "react-native-gesture-handler": "^1.6.1",
@@ -47,8 +45,14 @@
     "watchman": "^1.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "build:staging": "env-cmd -f ./.env.staging  npm run build",
+    "build:dev": "env-cmd -f ./.env.dev  npm run build",
+    "build:prod": "env-cmd -f ./.env.prod  npm run build",
+    "build:test": "env-cmd -f ./.env.test  npm run build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

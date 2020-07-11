@@ -8,6 +8,7 @@ bkp*
 
 # Local development
 .env
+/src/.env
 .dev
 .DS_Store
 src/bkp_index.js

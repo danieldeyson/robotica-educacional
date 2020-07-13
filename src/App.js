@@ -7,7 +7,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import configs from './configs';
 import Routes from './routes/index';
-import store from './store';
+import store from './store/';
 import 'react-notifications/lib/notifications.css';
 
 const theme = createMuiTheme({

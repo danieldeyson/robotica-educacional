@@ -4,7 +4,6 @@ npm-debug.log
 yarn.lock
 yarn-error.log
 package-lock.json
-bkp*
 
 # Local development
 .env
@@ -16,7 +15,3 @@ src/bkp_index.js
 # Docker
 Dockerfile
 docker-compose.yml
-
-# Files Management
-hist*
-audit.txt

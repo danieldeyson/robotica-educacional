@@ -10,6 +10,7 @@ package-lock.json
 /src/.env
 .dev
 .DS_Store
+.vscode/
 src/bkp_index.js
 
 # Docker

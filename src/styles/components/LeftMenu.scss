@@ -1,0 +1,25 @@
+.left-menu-component {
+    background-color: #4683ff;
+    height: 100%;
+    color: white;
+    svg {
+        color: white;
+    }
+
+    .logo-name {
+        text-align: center;
+        margin: 0;
+        line-height: 62px;
+        font-size: large;
+    }
+    span {
+        font-size: 16px;
+    }
+    .MuiListItemIcon-root {
+        min-width: 34px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

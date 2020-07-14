@@ -1,0 +1,8 @@
+{
+  "name": "robotica",
+  "description": "SCIENCE - Projeto Robotica Educacional",
+  "repository": "https://github.com/danieldeyson/science-robotica",
+  "logo": "https://cdn.rawgit.com/heroku/sciencia-robotica/master/src/assets/images/logo.png",
+  "keywords": ["node", "heroku"],
+  "image": "heroku/nodejs"
+}

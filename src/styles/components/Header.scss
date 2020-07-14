@@ -1,0 +1,25 @@
+.header-component {
+    .app-bar {
+        .MuiToolbar-root {
+            justify-content: space-between;
+        }
+
+        box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.12), 0px 3px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 8px 0px rgba(0, 0, 0, 0);
+        @media only screen and (min-width: 600px) {
+            width: calc(100% - 240px);
+        }
+        background-color: white;
+        @media only screen and (min-width: 600px) {
+            .menu-button {
+                display: none;
+            }
+        }
+        button {
+            color: #211f41;
+        }
+        h6 {
+            color: #211f41;
+        }
+    }
+
+}

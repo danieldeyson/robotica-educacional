@@ -1,55 +1,43 @@
-import React, { useEffect } from 'react';
+import React, { Component } from 'react';
+import { Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
-import { NotificationContainer } from 'react-notifications';
-import { Provider } from 'react-redux';
 
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
-import configs from './configs';
-import Routes from './routes/index';
-import store from './store/';
-import 'react-notifications/lib/notifications.css';
+import About from './pages/About';
+import Login from './pages/Login';
+import NewPassword from './pages/NewPassword';
+import Edit from './pages/Edit';
+import NewPlan from './pages/NewPlan';
+import Search from './pages/Search';
+import history from './routes/history';
+import Register from './pages/Register';
+import Planos from './components/Planos'
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      // light: will be calculated from palette.primary.main,
-      main: configs.primaryColor,
-      // dark: will be calculated from palette.primary.main,
-      // contrastText: will be calculated to contrast with palette.primary.main
-    },
-    secondary: {
-      light: configs.secundaryColor,
-      main: configs.secundaryColor,
-      // dark: will be calculated from palette.secondary.main,
-      contrastText: '#000000',
-    },
-    // error: will use the default color
-  },
-  typography: {
-    fontFamily: 'BlinkMacSystemFont,-apple-system,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,Helvetica,Arial,sans-serif',
-    fontSize: 14,
-    fontWeightLight: 300,
-    fontWeightRegular: 400,
-    fontWeightMedium: 500,
-  },
-});
 
-export default function App() {
-  useEffect(() => {
-    document
-      .querySelector('meta[name="theme-color"]')
-      .setAttribute('content', configs.primaryColor);
-  }, []);
+// Pages
+// Components
 
-  return (
-    <Provider store={store}>
-      <MuiThemeProvider theme={theme}>
-        <div className="app-wrapper">
-          <Routes />
-          <NotificationContainer />
-        </div>
-      </MuiThemeProvider>
-    </Provider>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Router history={history}>
+          <Switch>
+		<Route exact path="/" component={Search} />
+		<Route exact path="/login" component={Login} />
+		<Route exact path="/new" component={NewPlan} />
+		<Route exact path="/about" component={About} />
+		<Route exact path="/password" component={NewPassword} />
+		<Route exact path="/cadastro" component={Register}/>
+		<Route exact path="/perfil" component={Edit}/>
+		<Route exact path="/plano/:id"  component={Planos}/>
+          </Switch>
+        </Router>
+	<Footer />
+      </div>
+    );
+  }
 }
+

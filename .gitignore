@@ -32,3 +32,8 @@ docker-compose.yml
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+alterar.txt
+Procfile
+Thumbs.db
+node.svg
+lang-logo.png

@@ -53,8 +53,8 @@ async function logar(e){
     <Grid container className="login-component">
       <Grid className="empty-container" xs={12} sm={4} item />
       <Grid className="form-container" xs={12} sm={4} item>
-        <Typography className="login-font" variant="h2" component="h2">Bem vindo ao SCIENCE </Typography>
-        <Typography className="login-font-secundary" variant="h3" component="h3">Venha conheçe nosso Sistema</Typography>
+        <Typography className="login-font" variant="h2" component="h2">Bem-vindo ao SCIENCE </Typography>
+        <Typography className="login-font-secundary" variant="h3" component="h3">Venha conhecer nosso sistema</Typography>
         <Typography className="login-font-secundary" variant="h3" component="h3">Login</Typography>
         <Form  onSubmit={logar}
 

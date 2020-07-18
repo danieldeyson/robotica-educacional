@@ -75,15 +75,14 @@ if(init===0){
         senha: senha
     }
     
-        try {
-          const response = await (await api.post('/cadastro', data))
+        
+        await api.post('/cadastro', data).then((response)=>{
+
+          if (response.data!=0){
+            dispatch(SagaActions.Success({ message: 'Cadastrado com sucesso', path: '/login' }));
+          }else{dispatch(SagaActions.Error({message:'Erro no cadastro, tente novamente.',path:'/cadastro'}))}
+        })
     
-          dispatch(SagaActions.Success({ message: 'Cadastrado com sucesso', path: '/login' }));
-    
-          
-        } catch (err) {
-          dispatch(SagaActions.Error({message:'Erro no cadastro, tente novamente.',path:'/cadastro'}))
-        }
 
       }
       }
@@ -178,6 +177,8 @@ if(init===0){
                         <MenuItem value={'Municipal'}>Municipal</MenuItem>
                         <MenuItem value={'Estadual'}>Estadual</MenuItem>
                         <MenuItem value={'Particular'}>Particular</MenuItem>
+                        <MenuItem value={'Federal'}>Federal</MenuItem>
+                        <MenuItem value={'Outros'}>Outros</MenuItem>
                 </Select> 
               
           <TextField className="textfield" required name="idade" label="Idade" value={idade}  onChange={(e) => setIdade(e.target.value)} variant="outlined" />

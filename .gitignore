@@ -37,3 +37,4 @@ Procfile
 Thumbs.db
 node.svg
 lang-logo.png
+.env

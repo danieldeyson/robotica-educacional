@@ -1,6 +1,6 @@
-# teste1
-Aplicação nodejs
+# SCIENCE - Projeto Robótica Educacional
 
+## Aplicação visível em React-NodeJS
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

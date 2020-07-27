@@ -98,6 +98,7 @@ if(init===1){
       <Grid className="form-container" xs={12} sm={14} item>
         
         <Form onSubmit={handleEdit} >
+        <p>Observação ao Editar o perfil o Professor terá de preencher todas as informações de novo.</p>
        
        <TextField className="textfield" required name="nome"  placeholder= {usuario.nome} value={nome}  onChange={(e) => setNome(e.target.value)} variant="outlined" />
        <TextField className="textfield" required  name="email"  placeholder= {usuario.usuario} value={loguin}  onChange={(e) => setLoguin(e.target.value)} variant="outlined" />
@@ -178,8 +179,12 @@ if(init===1){
                      <MenuItem value={'Municipal'}>Municipal</MenuItem>
                      <MenuItem value={'Estadual'}>Estadual</MenuItem>
                      <MenuItem value={'Particular'}>Particular</MenuItem>
+                     <MenuItem value={'Federal'}>Federal</MenuItem>
+                     <MenuItem value={'Outras'}>Outras</MenuItem>
+
              </Select> 
-           
+
+
        <TextField className="textfield" required placeholder= {usuario.idade} name="idade"  value={idade}  onChange={(e) => setIdade(e.target.value)} variant="outlined" />
        <TextField className="textfield" required name="senha" placeholder= {usuario.senha} type='password' value={senha}  onChange={(e) => setSenha(e.target.value)} variant="outlined" />
        

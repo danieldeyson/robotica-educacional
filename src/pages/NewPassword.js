@@ -18,7 +18,7 @@ export default function Login() {
     <Grid container className="login-component">
       <Grid className="empty-container" xs={12} sm={4} item />
       <Grid className="form-container" xs={12} sm={4} item>
-        <Typography className="login-font" variant="h2" component="h2">Bem vindo ao ROBOMATE</Typography>
+        <Typography className="login-font" variant="h2" component="h2">Bem-vindo ao ROBOMATE</Typography>
         <Typography className="login-font-secundary" variant="h3" component="h3">Digite seu login para receber sua nova senha</Typography>
         <Form onSubmit={() => {
           dispatch(SagaActions.Success({ message: 'Senha recuperada com sucesso', path: '/' }));

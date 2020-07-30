@@ -1,6 +1,6 @@
 import { createBrowserHistory } from 'history';
 
-import configs from '../config';
+import configs from '../configs';
 
 const historyConfig = {
   basename: configs.basename,

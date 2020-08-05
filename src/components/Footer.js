@@ -33,7 +33,7 @@ export default function Footer() {
             color="textSecondary"
             component="p"
           >
-                        © 2019 - {new Date().getFullYear()}  SCIENCE - Sistema de Recomendação de Planos de Aula de Matemática para o Ensino de Robótica Educacional. Todos os
+                        © 2019 - {new Date().getFullYear()}  SCIENCE - Sistema de reComendação Integrado para o ENsino com robótiCa Educacional. Todos os
                         direitos reservados.
           </Typography>
         </Container>
